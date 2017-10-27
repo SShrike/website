@@ -1,0 +1,24 @@
+.title {
+    text-transform: initial;
+}
+
+@media only screen and (min-width: 48em) {
+    .title {
+        padding-right: 0.2em;
+        margin-right: 0.2em;
+        border-right: 0.1em solid #3C6E71;
+    }
+}
+
+.meta {
+    padding-top: 0.75em;
+    display: block;
+    font-size: 40%;
+}
+
+@media only screen and (min-width: 48em) {
+    .meta {
+        display: inline;
+        vertical-align: middle;
+    }
+}
