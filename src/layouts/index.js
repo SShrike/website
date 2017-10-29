@@ -19,9 +19,7 @@ const MainLayout = ({ data, children }) => {
           { name: 'description', content: description },
           { name: 'keywords', content: keywords },
         ]}
-      >
-        <html lang="en-NZ" />
-      </Helmet>
+      />
 
       <Header title={domain} subtitle={description} avatar="/avatar.svg" />
 
