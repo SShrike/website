@@ -21,6 +21,8 @@ module.exports = {
   rules: {
     strict: 0,
     'require-jsdoc': 0,
+    // Breaks using arrow functions in React components.
+    'no-invalid-this': 0,
     'react/prop-types': 0,
     'prettier/prettier': 'error',
     'jsx-a11y/label-has-for': 0,

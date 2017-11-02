@@ -9,14 +9,14 @@ function encode(data) {
 class ContactForm extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { name: '', email: '', message: '' };
   }
 
-  handleChange(event) {
+  handleChange = event => {
     this.setState({ [event.target.name]: event.target.value });
-  }
+  };
 
-  handleSubmit(event) {
+  handleSubmit = event => {
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -26,9 +26,12 @@ class ContactForm extends Component {
       .catch(error => alert(error));
 
     event.preventDefault();
-  }
+  };
 
   render() {
+    const { name, email, message } = this.state;
+    const enabled = name.length > 0 && email.length > 0 && message.length > 0;
+
     return (
       <form
         name="contact"
@@ -62,7 +65,9 @@ class ContactForm extends Component {
           </label>
         </p>
         <p>
-          <button type="submit">Send</button>
+          <button type="submit" disabled={!enabled}>
+            Send
+          </button>
         </p>
       </form>
     );
