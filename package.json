@@ -5,12 +5,10 @@
   "author": "Severen Redwood <severen.redwood@gmail.com>",
   "license": "Unlicense",
   "private": true,
-
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop"
   },
-
   "dependencies": {
     "gatsby": "^1.9.77",
     "gatsby-link": "^1.6.23",
@@ -37,6 +35,7 @@
     "typeface-roboto": "^0.0.43"
   },
   "devDependencies": {
+    "babel-eslint": "^8.0.1",
     "eslint": "^4.9.0",
     "eslint-config-google": "^0.9.1",
     "eslint-config-prettier": "^2.6.0",

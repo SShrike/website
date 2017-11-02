@@ -1,4 +1,5 @@
 module.exports = {
+  parser: 'babel-eslint',
   extends: [
     'google',
     'plugin:react/recommended',
@@ -18,8 +19,10 @@ module.exports = {
   },
 
   rules: {
+    strict: 0,
     'require-jsdoc': 0,
     'react/prop-types': 0,
     'prettier/prettier': 'error',
+    'jsx-a11y/label-has-for': 0,
   },
 };
