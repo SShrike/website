@@ -40,7 +40,7 @@ class ContactForm extends Component {
       >
         <p hidden>
           <label>
-            Don't fill this out: <input name="bot-field" />
+            Don&apos;t fill this out: <input name="bot-field" />
           </label>
         </p>
         <p>
