@@ -53,10 +53,12 @@ module.exports = {
       },
     },
 
-    'gatsby-plugin-netlify',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-canonical-urls',
+
+    // Must be at the end.
+    'gatsby-plugin-netlify',
   ],
 };
