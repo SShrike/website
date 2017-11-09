@@ -1,12 +1,21 @@
-import React from 'react';
+import * as React from 'react';
 
-let stylesStr;
+let stylesStr: string;
 if (process.env.NODE_ENV === 'production') {
   try {
     stylesStr = require('!raw-loader!../public/styles.css');
   } catch (error) {
     console.log(error);
   }
+}
+
+interface Props {
+  htmlAttributes: any;
+  headComponents: any;
+  bodyAttributes: any;
+  preBodyComponents: any;
+  body: any;
+  postBodyComponents: any;
 }
 
 const HTML = ({
@@ -16,7 +25,7 @@ const HTML = ({
   preBodyComponents,
   body,
   postBodyComponents,
-}) => {
+}: Props) => {
   let css;
   if (process.env.NODE_ENV === 'production') {
     css = (
