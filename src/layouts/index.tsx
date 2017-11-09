@@ -8,21 +8,23 @@ import Footer from '../components/Footer';
 import 'katex/dist/katex.min.css';
 import 'prism-themes/themes/prism-ghcolors.css';
 
-injectGlobal`
-  html {
-    background: hsl(94, 30%, 95%);
-  }
+// Global Styles
+injectGlobal({
+  html: {
+    background: 'hsl(94, 30%, 95%)',
+  },
 
-  body {
-    padding: 1em;
-    margin: 0 auto !important;
-    max-width: 48rem;
-  }
+  body: {
+    padding: '1em',
+    // This has to be set to !important for some reason.
+    margin: '0 auto !important',
+    maxWidth: '48rem',
+  },
 
-  main {
-    padding-top: 0.5em;
-  }
-`;
+  main: {
+    paddingTop: '0.5em',
+  },
+});
 
 interface Props {
   data: {

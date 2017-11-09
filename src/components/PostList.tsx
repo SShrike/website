@@ -2,51 +2,49 @@ import * as React from 'react';
 import GatsbyLink from 'gatsby-link';
 import styled from 'react-emotion';
 
-const Posts = styled('ul')`
-  margin: 0 auto;
-  padding: 0.8em;
-  list-style: none;
-`;
+const Posts = styled('ul')({
+  margin: '0 auto',
+  padding: '0.8em',
+  listStyle: 'none',
+});
 
-const Post = styled('li')`
-  margin-top: -0.5em;
-  margin-bottom: 1.5em;
-`;
+const Post = styled('li')({
+  marginTop: '-0.5em',
+  marginBottom: '1.5em',
+});
 
-const Link = styled(GatsbyLink)`
+const Link = styled(GatsbyLink)({
   // Figure out why this !important is needed.
-  text-decoration: none !important;
-`;
+  textDecoration: 'none !important',
+});
 
-const Title = styled('span')`
-  margin-bottom: 0.4em;
-  transition: all 250ms;
-  text-transform: initial;
+const Title = styled('span')({
+  marginBottom: '0.4em',
+  transition: 'all 250ms',
+  textTransform: 'initial',
 
-  :hover {
-    color: hsl(183, 31%, 34%);
-  }
+  ':hover': {
+    color: 'hsl(183, 31%, 34%)',
+  },
 
-  @media only screen and (min-width: 48em) {
-    padding-right: 0.2em;
-    margin-right: 0.2em;
-    border-right: 0.1em solid hsl(183, 31%, 34%);
-  }
-`;
+  '@media only screen and (min-width: 48em)': {
+    paddingRight: '0.2em',
+    marginRight: '0.2em',
+    borderRight: '0.1em solid hsl(183, 31%, 34%)',
+  },
+});
 
-const Meta = styled('small')`
-  display: block;
-  font-size: 50%;
+const Meta = styled('small')({
+  display: 'block',
+  fontSize: '50%',
 
-  @media only screen and (min-width: 48em) {
-    display: inline;
-    vertical-align: middle;
-  }
-`;
+  '@media only screen and (min-width: 48em)': {
+    display: 'inline',
+    verticalAlign: 'middle',
+  },
+});
 
-const Excerpt = styled('p')`
-  color: hsla(197, 41%, 17%, 0.8);
-`;
+const Excerpt = styled('p')({ color: 'hsla(197, 41%, 17%, 0.8)' });
 
 interface Props {
   postEdges: any;

@@ -4,13 +4,8 @@ import styled from 'react-emotion';
 
 import Bio from './Bio';
 
-const Container = styled('footer')`
-  padding: 0.5em;
-`;
-
-const Copyright = styled('p')`
-  font-size: 75%;
-`;
+const Container = styled('footer')({ padding: '0.5em' });
+const Copyright = styled('p')({ fontSize: '75%' });
 
 const Footer = () => (
   <Container>

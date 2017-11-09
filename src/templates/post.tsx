@@ -1,26 +1,26 @@
 import * as React from 'react';
 import styled from 'react-emotion';
 
-const Title = styled('span')`
-  text-transform: initial;
+const Title = styled('span')({
+  textTransform: 'initial',
 
-  @media only screen and (min-width: 48em) {
-    padding-right: 0.2em;
-    margin-right: 0.2em;
-    border-right: 0.1em solid #3c6e71;
-  }
-`;
+  '@media only screen and (min-width: 48em)': {
+    paddingRight: '0.2em',
+    marginRight: '0.2em',
+    borderRight: '0.1em solid #3c6e71',
+  },
+});
 
-const Meta = styled('small')`
-  padding-top: 0.75em;
-  display: block;
-  font-size: 40%;
+const Meta = styled('small')({
+  paddingTop: '0.75em',
+  display: 'block',
+  fontSize: '40%',
 
-  @media only screen and (min-width: 48em) {
-    display: inline;
-    vertical-align: middle;
-  }
-`;
+  '@media only screen and (min-width: 48em)': {
+    display: 'inline',
+    verticalAlign: 'middle',
+  },
+});
 
 interface Props {
   data: {
