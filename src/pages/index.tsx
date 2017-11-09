@@ -1,8 +1,14 @@
-import React from 'react';
+import * as React from 'react';
 
 import PostList from '../components/PostList';
 
-const IndexPage = ({ data }) => {
+interface Props {
+  data: {
+    allMarkdownRemark: any,
+  };
+}
+
+const IndexPage = ({ data }: Props) => {
   return <PostList postEdges={data.allMarkdownRemark.edges} />;
 };
 
