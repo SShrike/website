@@ -2,17 +2,19 @@ import * as React from 'react';
 import Link from 'gatsby-link';
 import styled from 'react-emotion';
 
+import { breakpoint, color } from '../constants';
+
 const Container = styled('p')({
   padding: '1em 0',
 
   margin: '0 auto',
   marginBottom: '0.8em',
 
-  border: '0.15em solid hsl(183, 31%, 34%)',
+  border: `0.15em solid ${color.border}`,
   borderLeft: 0,
   borderRight: 0,
 
-  '@media only screen and (min-width: 48em)': {
+  [breakpoint.desktop]: {
     padding: '0.8em',
   },
 });

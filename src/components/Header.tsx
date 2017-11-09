@@ -2,6 +2,8 @@ import * as React from 'react';
 import Link from 'gatsby-link';
 import styled from 'react-emotion';
 
+import { breakpoint, color } from '../constants';
+
 const Container = styled('header')({ padding: '0.8em' });
 
 const Avatar = styled('img')({
@@ -12,7 +14,7 @@ const Avatar = styled('img')({
 
   borderRadius: '60px',
 
-  '@media only screen and (min-width: 48em)': {
+  [breakpoint.desktop]: {
     right: 'auto',
     width: '6em',
     height: '6em',
@@ -24,7 +26,7 @@ const Title = styled('h1')({
   marginBottom: '0.5em',
   textTransform: 'uppercase',
 
-  '@media only screen and (min-width: 48em)': {
+  [breakpoint.desktop]: {
     marginTop: '0.4em',
     marginLeft: '3.4em',
   },
@@ -34,7 +36,7 @@ const Subtitle = styled('small')({
   display: 'block',
   maxWidth: '85%',
   paddingTop: '0.4em',
-  borderTop: '0.18em solid hsl(183, 31%, 34%)',
+  borderTop: `0.18em solid ${color.border}`,
   fontSize: '50%',
   textTransform: 'initial',
 

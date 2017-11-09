@@ -1,13 +1,15 @@
 import * as React from 'react';
 import styled from 'react-emotion';
 
+import { breakpoint, color } from '../constants';
+
 const Title = styled('span')({
   textTransform: 'initial',
 
-  '@media only screen and (min-width: 48em)': {
+  [breakpoint.desktop]: {
     paddingRight: '0.2em',
     marginRight: '0.2em',
-    borderRight: '0.1em solid #3c6e71',
+    borderRight: `0.1em solid ${color.border}`,
   },
 });
 
@@ -16,7 +18,7 @@ const Meta = styled('small')({
   display: 'block',
   fontSize: '40%',
 
-  '@media only screen and (min-width: 48em)': {
+  [breakpoint.desktop]: {
     display: 'inline',
     verticalAlign: 'middle',
   },

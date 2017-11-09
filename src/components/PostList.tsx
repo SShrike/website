@@ -2,6 +2,8 @@ import * as React from 'react';
 import GatsbyLink from 'gatsby-link';
 import styled from 'react-emotion';
 
+import { breakpoint, color } from '../constants';
+
 const Posts = styled('ul')({
   margin: '0 auto',
   padding: '0.8em',
@@ -24,13 +26,13 @@ const Title = styled('span')({
   textTransform: 'initial',
 
   ':hover': {
-    color: 'hsl(183, 31%, 34%)',
+    color: color.link,
   },
 
-  '@media only screen and (min-width: 48em)': {
+  [breakpoint.desktop]: {
     paddingRight: '0.2em',
     marginRight: '0.2em',
-    borderRight: '0.1em solid hsl(183, 31%, 34%)',
+    borderRight: `0.1em solid ${color.border}`,
   },
 });
 
@@ -38,13 +40,13 @@ const Meta = styled('small')({
   display: 'block',
   fontSize: '50%',
 
-  '@media only screen and (min-width: 48em)': {
+  [breakpoint.desktop]: {
     display: 'inline',
     verticalAlign: 'middle',
   },
 });
 
-const Excerpt = styled('p')({ color: 'hsla(197, 41%, 17%, 0.8)' });
+const Excerpt = styled('p')({ color: color.excerpt });
 
 interface Props {
   postEdges: any;
