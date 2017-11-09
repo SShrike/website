@@ -1,7 +1,6 @@
 # Yarn/NPM
 node_modules
 yarn-error.log
-yarn.lock
 
 # Gatsby
 .cache/
