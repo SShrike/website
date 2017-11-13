@@ -40,7 +40,7 @@
     "gatsby-transformer-sharp": "^1.6.13",
     "prism-themes": "^1.0.0",
     "react-emotion": "^8.0.10",
-    "typeface-roboto": "^0.0.43"
+    "typeface-roboto": "^0.0.44"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.2",
