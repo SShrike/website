@@ -12,7 +12,7 @@ module.exports = {
     'gatsby-plugin-typescript',
     'gatsby-plugin-emotion',
 
-    'gatsby-plugin-react-next',
+    'gatsby-plugin-preact',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-react-css-modules',
