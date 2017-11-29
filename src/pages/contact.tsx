@@ -17,11 +17,11 @@ const ContactPage = () => (
     <h3>Twitter</h3>
     <p>
       Send direct messages or tweets to{' '}
-      <a href="//twitter.com/SShrike">@SShrike.</a>
+      <a href="//twitter.com/severenr_">@severenr_.</a>
     </p>
 
     <h3>Discord</h3>
-    <p>Send direct messages to Shrike#9528.</p>
+    <p>Send direct messages to Severen#9528.</p>
 
     <h3>Contact Form</h3>
     <p>Alternatively you can use this handy dandy form:</p>

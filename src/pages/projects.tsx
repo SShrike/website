@@ -11,11 +11,11 @@ const ProjectsPage = () => (
     <h3>Past</h3>
     <ul>
       <li>
-        <a href="https://github.com/SShrike/tutil">Tutil</a> — A toolbox for
+        <a href="https://github.com/severen/tutil">Tutil</a> — A toolbox for
         developing command line applications in Rust.
       </li>
       <li>
-        <a href="https://github.com/SShrike/confmacs">Confmacs</a> — A small
+        <a href="https://github.com/severen/confmacs">Confmacs</a> — A small
         tool for managing multiple Emacs configurations.
       </li>
     </ul>
