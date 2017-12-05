@@ -15,10 +15,6 @@ module.exports = {
     'gatsby-plugin-preact',
     'gatsby-plugin-react-helmet',
     {
-      resolve: 'gatsby-plugin-react-css-modules',
-      exclude: '/global/',
-    },
-    {
       resolve: 'gatsby-plugin-typography',
       options: {
         pathToConfigModule: 'src/typography',
