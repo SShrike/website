@@ -1,7 +1,10 @@
 import * as React from 'react';
+import Helmet from 'react-helmet';
 
 const ProjectsPage = () => (
   <div>
+    <Helmet title="Projects" />
+
     <h2>Projects</h2>
     <p>The following is a list of past and current projects:</p>
 

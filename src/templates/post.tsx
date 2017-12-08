@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Helmet from 'react-helmet';
 import styled from 'react-emotion';
 
 import { breakpoint, color } from '../constants';
@@ -41,6 +42,8 @@ const PostTemplate = ({ data }: Props) => {
 
   return (
     <article>
+      <Helmet title={post.frontmatter.title} />
+
       <h1>
         <Title>{post.frontmatter.title}</Title>
         <Meta>

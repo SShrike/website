@@ -4,7 +4,7 @@ import PostList from '../components/PostList';
 
 interface Props {
   data: {
-    allMarkdownRemark: any,
+    allMarkdownRemark: any;
   };
 }
 

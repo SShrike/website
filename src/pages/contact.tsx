@@ -1,9 +1,12 @@
 import * as React from 'react';
+import Helmet from 'react-helmet';
 
 import ContactForm from '../components/ContactForm';
 
 const ContactPage = () => (
   <div>
+    <Helmet title="Contact" />
+
     <h2>Contact Information</h2>
 
     <h3>Email</h3>

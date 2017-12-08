@@ -1,7 +1,10 @@
 import * as React from 'react';
+import Helmet from 'react-helmet';
 
 const CopyrightPage = () => (
   <div>
+    <Helmet title="Copyright" />
+
     <h2>Content License</h2>
     <p>
       All non-code content is licensed under the{' '}

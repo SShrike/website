@@ -48,7 +48,8 @@ const MainLayout = ({ data, children }: Props) => {
   return (
     <div>
       <Helmet
-        title={title}
+        defaultTitle={title}
+        titleTemplate={`%s | ${title}`}
         meta={[
           { name: 'description', content: description },
           { name: 'keywords', content: keywords },
