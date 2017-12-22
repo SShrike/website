@@ -7,7 +7,9 @@
   "private": true,
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "emotion": "^8.0.12",
@@ -38,7 +40,8 @@
     "prism-themes": "^1.0.0",
     "react-emotion": "^8.0.12",
     "react-helmet": "^5.2.0",
-    "typeface-roboto": "^0.0.45"
+    "typeface-roboto": "^0.0.45",
+    "snyk": "^1.62.0"
   },
   "devDependencies": {
     "@types/react": "^16.0.27",
@@ -47,5 +50,6 @@
     "babel-plugin-emotion": "^8.0.12",
     "prettier": "^1.9.0",
     "typescript": "^2.6.2"
-  }
+  },
+  "snyk": true
 }
