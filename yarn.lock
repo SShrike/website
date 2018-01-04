@@ -37,9 +37,13 @@
   version "16.0.31"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.31.tgz#5285da62f3ac62b797f6d0729a1d6181f3180c3e"
 
-"@types/react@^15", "@types/react@^15.0.0":
+"@types/react@^15":
   version "15.6.10"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-15.6.10.tgz#58f70177e222e9133f9cafde07ad7251b2cf7aa6"
+
+"@types/react@^16.0.33":
+  version "16.0.34"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.34.tgz#7a8f795afd8a404a9c4af9539b24c75d3996914e"
 
 abbrev@1:
   version "1.1.1"
@@ -3854,9 +3858,9 @@ gatsby-remark-images@^1.5.36:
     slash "^1.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-remark-katex@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-katex/-/gatsby-remark-katex-1.0.7.tgz#13db33d81f2447f1c37714cbc8d1cb4382766e2f"
+gatsby-remark-katex@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-katex/-/gatsby-remark-katex-1.0.8.tgz#223075cf16c9907f3d9509586925d96c56c0278b"
   dependencies:
     babel-runtime "^6.26.0"
     katex "^0.7.1"
