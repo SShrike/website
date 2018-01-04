@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@types/react": "^16.0.33",
-    "@types/react-dom": "^15.0.0",
+    "@types/react-dom": "^16.0.3",
     "@types/react-helmet": "^5.0.3",
     "babel-plugin-emotion": "^8.0.12",
     "prettier": "^1.9.2",
