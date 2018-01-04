@@ -37,9 +37,13 @@
   version "16.0.31"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.31.tgz#5285da62f3ac62b797f6d0729a1d6181f3180c3e"
 
-"@types/react@^15", "@types/react@^15.0.0":
+"@types/react@^15":
   version "15.6.10"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-15.6.10.tgz#58f70177e222e9133f9cafde07ad7251b2cf7aa6"
+
+"@types/react@^16.0.33":
+  version "16.0.34"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.34.tgz#7a8f795afd8a404a9c4af9539b24c75d3996914e"
 
 abbrev@1:
   version "1.1.1"
@@ -7673,7 +7677,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8:
+prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.0:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
   dependencies:
@@ -7929,7 +7933,7 @@ react-typography@^0.16.1:
   version "0.16.5"
   resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.16.5.tgz#86e539430e0efb3a326c9de20d9e3a32662a2a6b"
 
-react@^15.0.0, react@^15.6.0:
+react@^15.6.0:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
   dependencies:
@@ -7938,6 +7942,15 @@ react@^15.0.0, react@^15.6.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
     prop-types "^15.5.10"
+
+react@^16.2.0:
+  version "16.2.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.2.0.tgz#a31bd2dab89bff65d42134fa187f24d054c273ba"
+  dependencies:
+    fbjs "^0.8.16"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
 
 read-all-stream@^3.0.0:
   version "3.1.0"
