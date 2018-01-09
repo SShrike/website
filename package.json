@@ -13,7 +13,7 @@
     "emotion": "^8.0.12",
     "emotion-server": "^8.0.12",
     "gatsby": "^1.9.150",
-    "gatsby-link": "^1.6.32",
+    "gatsby-link": "^1.6.33",
     "gatsby-plugin-canonical-urls": "^1.0.10",
     "gatsby-plugin-catch-links": "^1.0.14",
     "gatsby-plugin-emotion": "^1.1.10",
