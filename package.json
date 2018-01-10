@@ -38,7 +38,7 @@
     "react": "^16.2.0",
     "react-emotion": "^8.0.12",
     "react-helmet": "^5.2.0",
-    "typeface-roboto": "^0.0.45"
+    "typeface-roboto": "^0.0.50"
   },
   "devDependencies": {
     "@types/react": "^16.0.33",
