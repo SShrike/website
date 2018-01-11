@@ -45,7 +45,7 @@
     "@types/react-dom": "^16.0.3",
     "@types/react-helmet": "^5.0.3",
     "babel-plugin-emotion": "^8.0.12",
-    "prettier": "^1.9.2",
+    "prettier": "^1.10.2",
     "typescript": "^2.6.2"
   }
 }
