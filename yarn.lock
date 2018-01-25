@@ -3813,9 +3813,9 @@ gatsby-plugin-sitemap@^1.2.10:
     babel-runtime "^6.26.0"
     sitemap "^1.12.0"
 
-gatsby-plugin-typescript@^1.4.12:
-  version "1.4.12"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-1.4.12.tgz#6b6b372d377dad0187e82fdbfaeff71ba1751c04"
+gatsby-plugin-typescript@^1.4.13:
+  version "1.4.13"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-1.4.13.tgz#4d15b93f752955c02b09759a2eaeb304d64e798d"
   dependencies:
     babel-runtime "^6.26.0"
     ts-loader "^2.0.3"
