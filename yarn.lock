@@ -3772,23 +3772,6 @@ gatsby-plugin-react-helmet@^2.0.3:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-sharp@^1.6.25:
-  version "1.6.25"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.6.25.tgz#c6c67276ac4ed7ca9ac2b15dcdcd199f12e4208d"
-  dependencies:
-    async "^2.1.2"
-    babel-runtime "^6.26.0"
-    bluebird "^3.5.0"
-    image-size "^0.5.1"
-    imagemin "^5.2.2"
-    imagemin-pngquant "^5.0.0"
-    imagemin-webp "^4.0.0"
-    lodash "^4.17.4"
-    potrace "^2.1.1"
-    progress "^1.1.8"
-    sharp "^0.17.3"
-    svgo "^0.7.2"
-
 gatsby-plugin-sharp@^1.6.26:
   version "1.6.26"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.6.26.tgz#55f0b3274ac0fd1d230c7b6a2e8b378d4a259667"
@@ -3813,9 +3796,9 @@ gatsby-plugin-sitemap@^1.2.10:
     babel-runtime "^6.26.0"
     sitemap "^1.12.0"
 
-gatsby-plugin-typescript@^1.4.13:
-  version "1.4.13"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-1.4.13.tgz#4d15b93f752955c02b09759a2eaeb304d64e798d"
+gatsby-plugin-typescript@^1.4.14:
+  version "1.4.14"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-1.4.14.tgz#9a24eb39167270c634f656c37b62e4663feee65c"
   dependencies:
     babel-runtime "^6.26.0"
     ts-loader "^2.0.3"
