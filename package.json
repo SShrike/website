@@ -16,7 +16,7 @@
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-canonical-urls": "^1.0.12",
     "gatsby-plugin-catch-links": "^1.0.15",
-    "gatsby-plugin-emotion": "^1.1.10",
+    "gatsby-plugin-emotion": "^1.1.11",
     "gatsby-plugin-netlify": "^1.0.15",
     "gatsby-plugin-offline": "^1.0.12",
     "gatsby-plugin-preact": "^1.0.14",
