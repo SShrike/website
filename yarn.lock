@@ -3771,9 +3771,9 @@ gatsby-plugin-offline@^1.0.12:
     babel-runtime "^6.26.0"
     sw-precache "^5.0.0"
 
-gatsby-plugin-preact@^1.0.14:
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-1.0.14.tgz#4d8941ba36c3f4f6bb48079d90546196a5028337"
+gatsby-plugin-preact@^1.0.15:
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-1.0.15.tgz#4cdb0288f81334f0d8a6dc23177287eb71f75be4"
   dependencies:
     babel-runtime "^6.26.0"
     preact "^8.2.5"
