@@ -3749,9 +3749,9 @@ gatsby-plugin-catch-links@^1.0.15:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-emotion@^1.1.10:
-  version "1.1.10"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-1.1.10.tgz#b6a3de74077e4b7140052634fecf4bf8ad2f8e2f"
+gatsby-plugin-emotion@^1.1.11:
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-1.1.11.tgz#b6de9c3edad2e6f32b97dfbacdc4b66352e5eadc"
   dependencies:
     babel-runtime "^6.26.0"
 
