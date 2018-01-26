@@ -19,7 +19,7 @@
     "gatsby-plugin-emotion": "^1.1.10",
     "gatsby-plugin-netlify": "^1.0.15",
     "gatsby-plugin-offline": "^1.0.12",
-    "gatsby-plugin-preact": "^1.0.14",
+    "gatsby-plugin-preact": "^1.0.15",
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-sharp": "^1.6.26",
     "gatsby-plugin-sitemap": "^1.2.10",
