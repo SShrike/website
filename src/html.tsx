@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 let stylesStr: string;
 if (process.env.NODE_ENV === 'production') {

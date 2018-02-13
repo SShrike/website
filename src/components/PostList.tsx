@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import GatsbyLink from 'gatsby-link';
 import styled from 'react-emotion';
 
@@ -56,7 +56,7 @@ class PostList extends React.Component<Props, {}> {
   getPostList() {
     const postList = [];
 
-    this.props.postEdges.forEach(postEdge => {
+    this.props.postEdges.forEach((postEdge) => {
       const post = postEdge.node;
 
       postList.push({
@@ -76,7 +76,7 @@ class PostList extends React.Component<Props, {}> {
 
     return (
       <Posts>
-        {postList.map(post => (
+        {postList.map((post) => (
           <Post key={post.path}>
             <Link to={post.path}>
               <h2>

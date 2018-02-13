@@ -1,9 +1,9 @@
-import * as React from 'react';
+import React from 'react';
 
 // TODO: Improve type constraint.
 function encode(data: any) {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
     .join('&');
 }
 
