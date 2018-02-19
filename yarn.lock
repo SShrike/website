@@ -3885,9 +3885,9 @@ gatsby-remark-prismjs@^1.2.14:
     prismjs "^1.11.0"
     unist-util-visit "^1.3.0"
 
-gatsby-remark-responsive-iframe@^1.4.16:
-  version "1.4.16"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-responsive-iframe/-/gatsby-remark-responsive-iframe-1.4.16.tgz#38efb84a4b6f0f9704afb45970bf8b8a7668c446"
+gatsby-remark-responsive-iframe@^1.4.17:
+  version "1.4.17"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-responsive-iframe/-/gatsby-remark-responsive-iframe-1.4.17.tgz#1dc638be7517ccca9927bed185a89b32b11528be"
   dependencies:
     babel-runtime "^6.26.0"
     bluebird "^3.5.0"
