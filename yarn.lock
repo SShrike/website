@@ -3902,13 +3902,13 @@ gatsby-remark-images@^1.5.43:
     slash "^1.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-remark-katex@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-katex/-/gatsby-remark-katex-1.0.10.tgz#b8816593f48bec189a37de8851514a05783b8b51"
+gatsby-remark-katex@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-katex/-/gatsby-remark-katex-1.0.12.tgz#7f6df95f2d1aa4233c0f78a30d167b823074c9c3"
   dependencies:
     babel-runtime "^6.26.0"
     katex "^0.8.3"
-    remark-math "^0.2.4"
+    remark-math "^1.0.3"
     unist-util-visit "^1.1.1"
 
 gatsby-remark-prismjs@^1.2.15:
@@ -8531,9 +8531,9 @@ relay-runtime@1.4.1:
     fbjs "^0.8.14"
     relay-debugger-react-native-runtime "0.0.10"
 
-remark-math@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/remark-math/-/remark-math-0.2.4.tgz#f027cf7f984108777c23425905bf0cbfeeeddda1"
+remark-math@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-math/-/remark-math-1.0.3.tgz#e8cda5af8cd8a85fc7782ccbecf0261943c29b9a"
   dependencies:
     trim-trailing-lines "^1.1.0"
 

@@ -27,7 +27,7 @@
     "gatsby-plugin-typography": "^1.7.14",
     "gatsby-remark-copy-linked-files": "^1.5.27",
     "gatsby-remark-images": "^1.5.43",
-    "gatsby-remark-katex": "^1.0.10",
+    "gatsby-remark-katex": "^1.0.12",
     "gatsby-remark-prismjs": "^1.2.15",
     "gatsby-remark-responsive-iframe": "^1.4.17",
     "gatsby-remark-smartypants": "^1.4.10",
