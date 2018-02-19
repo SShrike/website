@@ -2283,11 +2283,11 @@ create-ecdh@^4.0.0:
     bn.js "^4.1.0"
     elliptic "^6.0.0"
 
-create-emotion-server@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/create-emotion-server/-/create-emotion-server-9.0.0.tgz#bc13c2511859fbfc939d295c8032c07404a1ee19"
+create-emotion-server@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/create-emotion-server/-/create-emotion-server-9.0.1.tgz#05bdecfb8a2d89395475575dd262d6d1305fe934"
   dependencies:
-    emotion-utils "^9.0.0"
+    emotion-utils "^9.0.1"
     html-tokenize "^2.0.0"
     multipipe "^1.0.2"
     through "^2.3.8"
@@ -2935,11 +2935,11 @@ emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
 
-emotion-server@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/emotion-server/-/emotion-server-9.0.0.tgz#defa3666c0babff017e83a959533765e0b78ad4d"
+emotion-server@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/emotion-server/-/emotion-server-9.0.1.tgz#4328f177cc730f14c6ad4f97b3dbd775149eee20"
   dependencies:
-    create-emotion-server "^9.0.0"
+    create-emotion-server "^9.0.1"
 
 emotion-utils@^9.0.0:
   version "9.0.0"
@@ -3818,23 +3818,6 @@ gatsby-plugin-react-helmet@^2.0.5:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-2.0.5.tgz#cb63ca1c9b6004a1214190cfbe1d241727b1b7d5"
   dependencies:
     babel-runtime "^6.26.0"
-
-gatsby-plugin-sharp@^1.6.27:
-  version "1.6.27"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.6.27.tgz#28b697d19417ec1bf5ad0d4d805d5c634ed12c46"
-  dependencies:
-    async "^2.1.2"
-    babel-runtime "^6.26.0"
-    bluebird "^3.5.0"
-    image-size "^0.5.1"
-    imagemin "^5.2.2"
-    imagemin-pngquant "^5.0.0"
-    imagemin-webp "^4.0.0"
-    lodash "^4.17.4"
-    potrace "^2.1.1"
-    progress "^1.1.8"
-    sharp "^0.19.0"
-    svgo "^0.7.2"
 
 gatsby-plugin-sharp@^1.6.31:
   version "1.6.31"
