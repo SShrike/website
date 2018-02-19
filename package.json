@@ -10,7 +10,7 @@
     "develop": "gatsby develop"
   },
   "dependencies": {
-    "emotion": "^9.0.0",
+    "emotion": "^9.0.1",
     "emotion-server": "^9.0.1",
     "gatsby": "^1.9.202",
     "gatsby-link": "^1.6.37",
