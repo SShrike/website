@@ -32,9 +32,9 @@
     "@types/node" "*"
     "@types/react" "*"
 
-"@types/react-helmet@^5.0.4":
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/@types/react-helmet/-/react-helmet-5.0.4.tgz#e8c8277bf4b0f43ba6ba8d6cd098fc53b518f975"
+"@types/react-helmet@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@types/react-helmet/-/react-helmet-5.0.5.tgz#30a12b0431732a20882f0fa9b75bf56ff91700d3"
   dependencies:
     "@types/react" "*"
 
