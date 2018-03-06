@@ -3839,9 +3839,9 @@ gatsby-remark-images@^1.5.50:
     slash "^1.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-remark-katex@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-katex/-/gatsby-remark-katex-1.0.12.tgz#7f6df95f2d1aa4233c0f78a30d167b823074c9c3"
+gatsby-remark-katex@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-katex/-/gatsby-remark-katex-1.0.13.tgz#63847c1ed981fc2baa68069fb1042ad06a66d0da"
   dependencies:
     babel-runtime "^6.26.0"
     katex "^0.8.3"
