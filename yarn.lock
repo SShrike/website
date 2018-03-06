@@ -3835,13 +3835,13 @@ gatsby-remark-copy-linked-files@^1.5.30:
     probe-image-size "^3.2.0"
     unist-util-visit "^1.1.1"
 
-gatsby-remark-images@^1.5.50:
-  version "1.5.50"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-1.5.50.tgz#695022db8f84385782afbb57bc57c36572367469"
+gatsby-remark-images@^1.5.55:
+  version "1.5.55"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-1.5.55.tgz#2db25574ff0a6a1c78c22f41185b1ee50751488d"
   dependencies:
     babel-runtime "^6.26.0"
     cheerio "^1.0.0-rc.2"
-    gatsby-plugin-sharp "^1.6.34"
+    gatsby-plugin-sharp "^1.6.39"
     is-relative-url "^2.0.0"
     lodash "^4.17.4"
     slash "^1.0.0"
