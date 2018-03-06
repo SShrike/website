@@ -34,7 +34,7 @@
     "gatsby-remark-smartypants": "^1.4.11",
     "gatsby-source-filesystem": "^1.5.26",
     "gatsby-transformer-remark": "^1.7.34",
-    "gatsby-transformer-sharp": "^1.6.21",
+    "gatsby-transformer-sharp": "^1.6.22",
     "prism-themes": "^1.0.0",
     "react": "^16.2.0",
     "react-emotion": "^9.0.2",
