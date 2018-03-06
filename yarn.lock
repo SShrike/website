@@ -3766,9 +3766,9 @@ gatsby-plugin-react-helmet@^2.0.5:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-sharp@^1.6.34:
-  version "1.6.34"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.6.34.tgz#11cd60af3d3a9c8e77772476ba200830f7e71eb6"
+gatsby-plugin-sharp@^1.6.34, gatsby-plugin-sharp@^1.6.38:
+  version "1.6.38"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.6.38.tgz#4906b236b846b383adbd30359493f76cf3bfefbd"
   dependencies:
     async "^2.1.2"
     babel-runtime "^6.26.0"
@@ -3780,7 +3780,7 @@ gatsby-plugin-sharp@^1.6.34:
     potrace "^2.1.1"
     probe-image-size "^3.2.0"
     progress "^1.1.8"
-    sharp "^0.19.0"
+    sharp "^0.19.1"
     svgo "^0.7.2"
 
 gatsby-plugin-sitemap@^1.2.13:
@@ -9096,7 +9096,7 @@ shallowequal@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.0.2.tgz#1561dbdefb8c01408100319085764da3fcf83f8f"
 
-sharp@^0.19.0:
+sharp@^0.19.1:
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.19.1.tgz#819bf11f5c3f4ff32eb465f255b5fb87e43ceea1"
   dependencies:
