@@ -3703,9 +3703,9 @@ gatsby-cli@^1.1.45:
     yargs "^8.0.2"
     yurnalist "^0.2.1"
 
-gatsby-link@^1.6.38:
-  version "1.6.38"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.38.tgz#5d90b0a58da5419831e40aa05b16b8d1bf177c6c"
+gatsby-link@^1.6.38, gatsby-link@^1.6.39:
+  version "1.6.39"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.39.tgz#4189d26a66476b61fb524c2c8dd97b74aee728d4"
   dependencies:
     "@types/history" "^4.6.2"
     "@types/react-router-dom" "^4.2.2"
@@ -3774,7 +3774,7 @@ gatsby-plugin-react-helmet@^2.0.6:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-sharp@^1.6.34, gatsby-plugin-sharp@^1.6.39:
+gatsby-plugin-sharp@^1.6.39:
   version "1.6.39"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.6.39.tgz#842a814f0f68470b703830e36c51c95083678265"
   dependencies:
@@ -3814,9 +3814,9 @@ gatsby-plugin-typography@^1.7.17:
     react-typography "^0.16.1"
     typography "^0.16.0"
 
-gatsby-react-router-scroll@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-1.0.12.tgz#0fdbea2124f0c2a2496fbc18978a35f1c020b27c"
+gatsby-react-router-scroll@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-1.0.13.tgz#d1cfd43c334497ad174ae9409c24bb5d4dcda3aa"
   dependencies:
     babel-runtime "^6.26.0"
     scroll-behavior "^0.9.9"
@@ -3934,9 +3934,9 @@ gatsby-transformer-sharp@^1.6.22:
     fs-extra "^4.0.2"
     probe-image-size "^3.2.0"
 
-gatsby@^1.9.223:
-  version "1.9.223"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.223.tgz#1bf9416cd6a6ceccb1f74da7f0eb10f16fb8010b"
+gatsby@^1.9.231:
+  version "1.9.231"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.231.tgz#869698acea98e633700a639104dd0e1b31d036ef"
   dependencies:
     async "^2.1.2"
     babel-code-frame "^6.22.0"
@@ -3978,9 +3978,9 @@ gatsby@^1.9.223:
     fs-extra "^4.0.1"
     gatsby-1-config-css-modules "^1.0.10"
     gatsby-cli "^1.1.45"
-    gatsby-link "^1.6.38"
+    gatsby-link "^1.6.39"
     gatsby-module-loader "^1.0.11"
-    gatsby-react-router-scroll "^1.0.12"
+    gatsby-react-router-scroll "^1.0.13"
     glob "^7.1.1"
     graphql "^0.11.7"
     graphql-relay "^0.5.1"
