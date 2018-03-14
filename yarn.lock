@@ -3774,9 +3774,9 @@ gatsby-plugin-react-helmet@^2.0.7:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-sharp@^1.6.39:
-  version "1.6.39"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.6.39.tgz#842a814f0f68470b703830e36c51c95083678265"
+gatsby-plugin-sharp@^1.6.39, gatsby-plugin-sharp@^1.6.41:
+  version "1.6.41"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.6.41.tgz#87dc28d226d70e63408bf31983268efdf10e8b1d"
   dependencies:
     async "^2.1.2"
     babel-runtime "^6.26.0"

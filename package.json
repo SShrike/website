@@ -22,7 +22,7 @@
     "gatsby-plugin-offline": "^1.0.15",
     "gatsby-plugin-preact": "^1.0.17",
     "gatsby-plugin-react-helmet": "^2.0.7",
-    "gatsby-plugin-sharp": "^1.6.39",
+    "gatsby-plugin-sharp": "^1.6.41",
     "gatsby-plugin-sitemap": "^1.2.14",
     "gatsby-plugin-typescript": "^1.4.17",
     "gatsby-plugin-typography": "^1.7.17",
