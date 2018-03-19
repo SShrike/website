@@ -15,7 +15,6 @@ const Title = styled('span')({
 });
 
 const Meta = styled('small')({
-  paddingTop: '0.75em',
   display: 'block',
   fontSize: '40%',
 
