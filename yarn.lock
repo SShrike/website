@@ -3791,9 +3791,9 @@ gatsby-plugin-sharp@^1.6.39, gatsby-plugin-sharp@^1.6.41:
     sharp "^0.20.0"
     svgo "^0.7.2"
 
-gatsby-plugin-sitemap@^1.2.16:
-  version "1.2.16"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-1.2.16.tgz#0a9fcc9d06d4a9467536d9b9532b502b328b622f"
+gatsby-plugin-sitemap@^1.2.18:
+  version "1.2.18"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-1.2.18.tgz#6e5f0e64a95fd79fbdf6183f4c34587e6b42d07e"
   dependencies:
     babel-runtime "^6.26.0"
     sitemap "^1.12.0"
