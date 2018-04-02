@@ -3738,9 +3738,9 @@ gatsby-plugin-emotion@^1.1.16:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-google-analytics@^1.0.22:
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-1.0.22.tgz#fb2a3311d64e6daf77004a482b73eee0181fe8c1"
+gatsby-plugin-google-analytics@^1.0.27:
+  version "1.0.27"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-1.0.27.tgz#d040baffb3f74eeb236d4b6ce7020925c921ab1c"
   dependencies:
     babel-runtime "^6.26.0"
 
