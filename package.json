@@ -47,6 +47,6 @@
     "@types/react-helmet": "^5.0.5",
     "babel-plugin-emotion": "^9.0.1",
     "prettier": "^1.11.1",
-    "typescript": "^2.7.2"
+    "typescript": "^2.8.1"
   }
 }
