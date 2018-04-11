@@ -603,7 +603,7 @@ babel-plugin-check-es2015-constants@^6.22.0, babel-plugin-check-es2015-constants
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-emotion@^9.0.1, babel-plugin-emotion@^9.1.0:
+babel-plugin-emotion@^9.1.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-emotion/-/babel-plugin-emotion-9.1.0.tgz#d0b7598168980f4fbc7b72fd86c49904b613fe79"
   dependencies:
@@ -2914,10 +2914,6 @@ emotion-server@^9.1.1:
   dependencies:
     create-emotion-server "^9.1.1"
 
-emotion-utils@^9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/emotion-utils/-/emotion-utils-9.0.1.tgz#db1034410d8ac4e399845d346471c3f2db5124d7"
-
 emotion-utils@^9.1.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/emotion-utils/-/emotion-utils-9.1.0.tgz#7484dbf18f3b1dc1de68559d1ff35a74caa998dc"
@@ -3719,9 +3715,9 @@ gatsby-cli@^1.1.45:
     yargs "^8.0.2"
     yurnalist "^0.2.1"
 
-gatsby-link@^1.6.38, gatsby-link@^1.6.39:
-  version "1.6.39"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.39.tgz#4189d26a66476b61fb524c2c8dd97b74aee728d4"
+gatsby-link@^1.6.39, gatsby-link@^1.6.40:
+  version "1.6.40"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.40.tgz#e60ab2b36452c7478f1359a7f03f7e0fc35cd847"
   dependencies:
     "@types/history" "^4.6.2"
     "@types/react-router-dom" "^4.2.2"
