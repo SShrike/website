@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "emotion": "^9.1.1",
-    "emotion-server": "^9.1.1",
+    "emotion-server": "^9.1.2",
     "gatsby": "^1.9.248",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-canonical-urls": "^1.0.16",
